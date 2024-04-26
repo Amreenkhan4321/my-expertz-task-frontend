@@ -1,0 +1,585 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.link-text{
+  color: #4458f1;
+  margin: 20px 0px 0px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.text-decoration{
+  text-decoration: none;
+  
+}
+.main-box {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(211, 251, 237); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-text {
+  color: #eb3030;
+  font-family: "inter-medium";
+  font-size: 14px;
+  margin: 0px 6px 0px;
+}
+
+.flex-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+/* login css start */
+
+.main-box-login {
+  border-radius: 5px;
+  border: 1px solid rgb(231, 231, 231);
+  height: 500px;
+  width: 400px;
+  /* background-blend-mode:overlay; */
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 10px 11px 13px -3px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 10px 11px 13px -3px rgba(0, 0, 0, 0.66);
+  box-shadow: 10px 11px 13px -3px rgba(0, 0, 0, 0.66);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-box-login .admin-login-inner .login-text {
+  color: #111827;
+  font-size: 24px;
+  line-height: 25px;
+  font-family: "Poppins-Bold";
+  margin-top: 5px;
+  text-align: center;
+}
+
+.main-box-login .admin-login-inner .admin-sign-para {
+  margin-bottom: 10px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.main-box-login .input-box .form-lable {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  font-family: "Poppins-Medium";
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: #6b7280;
+}
+
+.main-box-login .input-box {
+  margin-bottom: 28px;
+}
+
+.main-box-login .admin-forgot-para {
+  color: #000000 !important;
+}
+
+.main-box-login .input-box .MuiInputBase-root {
+  width: 100%;
+}
+
+.main-box-login .input-box .MuiInputBase-input {
+  padding: 10.5px 15px;
+}
+
+.main-box-login .input-box .MuiInputBase-root fieldset:hover {
+  border-color: transparent;
+}
+
+.main-box-login .checkbox-main .MuiSvgIcon-root {
+  color: rgb(5, 255, 167);
+  width: 20px;
+  height: 20px;
+}
+
+.main-box-login .set-login-box {
+  text-align: left;
+}
+
+.main-box-login .set-login-box-back {
+  background-color: black;
+  height: 100%;
+}
+
+.main-box-login .login-btn-main .login-btn {
+  margin-top: 15px;
+}
+
+.main-box-login .checkbox-main .checkbox-lable {
+  color: #6b7280;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main-box-login .checkbox-lable .MuiCheckbox-root {
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.main-box-login .checkbox-lable .MuiFormControlLabel-label {
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 21px;
+}
+.main-box-login .common-para {
+  font-size: 14px !important;
+  line-height: 21px !important;
+  font-family: "Poppins-Regular";
+}
+
+.main-box-login .form-group .form-control input {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  width: 100%;
+  padding: 9.5px 15px;
+  background-color: transparent;
+}
+
+.main-box-login .form-group .form-control input::placeholder {
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Poppins-Regular";
+  opacity: 1;
+}
+
+.main-box-login
+  .form-group
+  .form-control
+  .Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.main-box-login .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #3e3e3e !important;
+}
+
+.main-box-login .form-control-textarea:focus-visible {
+  outline: none !important;
+}
+
+fieldset {
+  border: 0px;
+}
+
+.main-box-login .page-border {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.main-box-login .btn-main-primary .btn-primary,
+.btn-main-primary .btn-primary:hover {
+  /* background-color:rgb(1, 252, 164); */
+  background-color: black;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 380px;
+  color: #ffffff;
+  /* color: black; */
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  height: 44px;
+  text-transform: capitalize;
+}
+
+/* login css end */
+
+/* signup css start */
+.register-main-box {
+  border-radius: 5px;
+  border: 1px solid rgb(231, 231, 231);
+  height: auto;
+  width: 410px;
+  /* background-blend-mode:overlay; */
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 10px 11px 13px -3px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 10px 11px 13px -3px rgba(0, 0, 0, 0.66);
+  box-shadow: 10px 11px 13px -3px rgba(0, 0, 0, 0.66);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-main-box .admin-login-inner .login-text {
+  color: #111827;
+  font-size: 24px;
+  line-height: 25px;
+  font-family: "Poppins-Bold";
+  margin-top: 5px;
+  text-align: center;
+}
+
+.register-main-box .admin-login-inner .admin-sign-para {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.register-main-box .input-box .form-lable {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  font-family: "Poppins-Medium";
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: #6b7280;
+}
+
+.register-main-box .input-box {
+  margin-bottom: 28px;
+}
+
+.register-main-box .admin-forgot-para {
+  color: #000000 !important;
+}
+
+.register-main-box .input-box .MuiInputBase-root {
+  width: 100%;
+}
+
+.register-main-box .input-box .MuiInputBase-input {
+  padding: 10.5px 15px;
+}
+
+.register-main-box .input-box .MuiInputBase-root fieldset:hover {
+  border-color: transparent;
+}
+
+.register-main-box .checkbox-main .MuiSvgIcon-root {
+  color: rgb(5, 255, 167);
+  width: 20px;
+  height: 20px;
+}
+
+.register-main-box .set-login-box {
+  text-align: left;
+}
+
+.register-main-box .set-login-box-back {
+  background-color: black;
+  height: 100%;
+}
+
+.register-main-box .login-btn-main .login-btn {
+  margin-top: 10px;
+}
+
+.register-main-box .checkbox-main .checkbox-lable {
+  color: #6b7280;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.register-main-box .checkbox-lable .MuiCheckbox-root {
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.register-main-box .checkbox-lable .MuiFormControlLabel-label {
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.register-main-box .common-para {
+  font-size: 14px !important;
+  line-height: 21px !important;
+  font-family: "Poppins-Regular";
+}
+
+.register-main-box .form-group .form-control input {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  width: 100%;
+  padding: 9.5px 15px;
+  background-color: transparent;
+}
+
+.register-main-box .form-group .form-control input::placeholder {
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Poppins-Regular";
+  opacity: 1;
+}
+
+.register-main-box
+  .form-group
+  .form-control
+  .Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.register-main-box
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #3e3e3e !important;
+}
+
+.register-main-box .form-control-textarea:focus-visible {
+  outline: none !important;
+}
+
+fieldset {
+  border: 0px;
+}
+
+.register-main-box .btn-main-primary .btn-primary,
+.btn-main-primary .btn-primary:hover {
+  /* background-color: rgb(1, 252, 164); */
+  background-color: black;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 380px;
+  color: #ffffff;
+  /* color: black; */
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  height: 44px;
+  text-transform: capitalize;
+}
+
+/* signup css end */
+
+.add-btn-main-primary .add-btn-primary,
+.add-btn-main-primary .add-btn-primary:hover {
+  background-color: rgb(38, 190, 190);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 377px;
+
+  color: black;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  height: 44px;
+  text-transform: capitalize;
+  margin-top: 52px;
+}
+
+
+.dashboard-content {
+  margin: 10px 0px 0px 20px;
+}
+
+.list-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.list-flex .page-title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  color: black;
+}
+
+.userlist-table-main {
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  width: 98%;
+}
+
+/* list add start */
+.Add-main-box {
+  margin-top: 50px;
+}
+.add-header-title {
+  margin: 0px 0px 10px 0px;
+}
+/* list add end */
+
+/*add user*/
+.grid-main .grid-item {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.input-box .form-lable {
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  font-family: "Poppins-Regular";
+  margin-bottom: 6px;
+  color: black;
+  margin-top: 0px;
+}
+
+.input-box {
+  margin-bottom: 10px;
+}
+
+.add-user-input .form-control-textarea {
+  width: 100%;
+  border-radius: 22px;
+  min-height: 70px;
+  resize: none;
+  background-color: #161616;
+  border: 0px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: "Poppins-Regular";
+  padding: 15px;
+  border: 1px solid #3e3e3e;
+}
+
+.form-group .form-control input {
+  width: 100%;
+  padding: 9px 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "Poppins-Regular";
+  border: 1px solid #dfe0e1;
+}
+
+.form-group .form-control input::placeholder {
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "Poppins-Regular";
+  color: #4d586a;
+  opacity: 1;
+}
+
+.form-group .form-control .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+  border-width: 0px;
+}
+
+fieldset {
+  border: 0px;
+}
+
+.add-btn-main .btn-main,
+.add-btn-main .btn-main:hover {
+  background-color: rgb(38, 190, 190);
+  border-radius: 4px;
+  width: 55%;
+  max-width: 377px;
+color: black;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  height: 44px;
+  text-transform: capitalize;
+  margin-top: 52px;
+}
+
+.add-header-title-main .add-header-title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.add-user-data-main{
+  /* border: 1px solid green; */
+  width: 95%;
+}
+
+.input-box-select .form-group-select .status-select{width: 18%;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.input-box .form-group .status-select{
+  height: 39px;
+}
+
+.margin{
+  /* border: 1px solid grey; */
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.user-btn-flex{
+  display: flex;
+}
+
+.back-btn-main .back-btn,
+.back-btn-main .back-btn:hover{
+margin-left: 30px;
+background-color: rgb(38, 190, 190);
+border-radius: 4px;
+width: 100%;
+max-width: 250px;
+
+color: black;
+font-size: 14px;
+line-height: 21px;
+font-weight: 500;
+height: 44px;
+text-transform: capitalize;
+margin-top: 52px;
+}
+
+.add-btn-main .add-btn,
+.add-btn-main .add-btn:hover{
+margin-left: 10px;
+margin-right: 10px;
+background-color: rgb(38, 190, 190);
+border-radius: 4px;
+width: 100%;
+max-width: 250px;
+color: black;
+font-size: 14px;
+line-height: 21px;
+font-weight: 500;
+height: 44px;
+text-transform: capitalize;
+margin-top: 52px;
+}
+/*add end*/
+
+
+.text-color{
+  color: black;
+}
+
+.p-text{
+  color: gray;
+  font-size: 18px;
+  margin: 5px;
+}
